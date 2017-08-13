@@ -10,13 +10,28 @@
 <body>
     <div class="container">
         <div class="jumbotron">
-            <h1>Friend Finder!</h1>
+            <h1 style="color:white">Friend Finder</h1>
             <hr>
-            <p>......</p>
-            <p><a class="btn btn-primary btn-lg" href="/survey" role="button">Go to Survey</a></p>
+            <p style="color:white">Answer a Few Questions and We'll Match You Up With a New Bestie!</p>
+            <p><a class="btn btn-primary btn-lg" href="/survey" role="button" id="surveyButton">Go to Survey</a></p>
         </div>
         <a href="../api/friends">API Friends List</a> |
         <a href="https://github.com/rsharif24/FriendFinder">GitHub Repo</a>
     </div>
+
+    <style>
+        .jumbotron{
+            text-align: center;
+            background-color: #83a8a5;
+        }
+        body{
+            background-color: #e2e2e2;
+        }
+        #surveyButton{
+            background-color: #d3a570;
+            border-style: none;
+        }
+        
+    </style>
 </body>
 </html>
